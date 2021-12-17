@@ -1,0 +1,118 @@
+.flashSale {
+}
+.flashSale-container {
+  background-color: var(--white-color);
+  margin-top: 16px;
+}
+.flashSale-content {
+  border-bottom: 1px solid var(--border-color);
+}
+.flashSale-text {
+  width: 180px;
+  padding: 20px;
+}
+.flashSale-slideWrap {
+  position: relative;
+}
+.flashSale-slide {
+  width: 100%;
+  overflow: hidden;
+}
+.flashSale-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.8s;
+}
+.flashSale-item {
+  flex-basis: 20%;
+  text-align: center;
+  padding: 12.5px;
+}
+
+.flashSale-img {
+  width: 175px;
+  height: 175px;
+  margin: auto;
+  position: relative;
+}
+.flashSale-discount {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: var(--discount-color);
+  width: 55px;
+  height: 55px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
+}
+.flashSale-discount .number {
+  margin-top: 4px;
+  color: var(--primary-color);
+}
+.flashSale-discount .text {
+  color: var(--white-color);
+}
+.flashSale-card {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 175px;
+}
+.flashSale-money {
+  color: var(--primary-color);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+.flashSale-money span {
+  font-size: 10px;
+  text-decoration: underline;
+  margin-top: 2px;
+  margin-right: 4px;
+}
+
+.flashSale-money .currentMoney {
+}
+
+.flashSale-slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  width: 100%;
+  height: 30px;
+}
+
+.flashSale-slide-btn .btn-left,
+.flashSale-slide-btn .btn-right {
+  position: absolute;
+  background-color: var(--white-color);
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px var(--border-color);
+  transition: 0.2s;
+  cursor: pointer;
+  color: var(--text-light-color);
+  opacity: 0;
+  visibility: hidden;
+  font-size: 12px;
+}
+
+.flashSale-slide-btn .btn-left {
+  left: -14px;
+}
+.flashSale-slide-btn .btn-right {
+  right: -14px;
+}
+
+.flashSale-slideWrap:hover .flashSale-slide-btn .btn-right {
+  transform: scale(1.8);
+}
+.flashSale-slideWrap:hover .flashSale-slide-btn .btn-left {
+  transform: scale(1.8);
+}

@@ -1,0 +1,116 @@
+.footer {
+}
+.footer-header {
+  background-color: #fbfbfb;
+}
+.footer .container {
+  padding-top: 52px;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list-item {
+  flex-basis: 18%;
+}
+.footer-list-item h4 {
+  font-size: 13px;
+  color: var(--text-light-color);
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+.footer-list-item p {
+  color: var(--text-light-color);
+  margin-top: 16px;
+  font-size: var(--fontSize14);
+}
+.footer-list-item .socialNetworks {
+}
+.footer-list-item .socialNetworks li {
+  display: flex;
+  align-items: center;
+  color: var(--text-light-color);
+  margin-bottom: 12px;
+}
+.footer-list-item .socialNetworks i {
+  font-size: 20px;
+  margin-right: 14px;
+}
+.footer-list-item .download {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list-item .download .qrCode {
+  flex-basis: 45%;
+}
+.footer-list-item .download .app {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-list-item .shippingUnit {
+  margin-top: 32px;
+}
+
+.footer-list-item .img {
+  width: 83%;
+}
+.footer-header .line {
+  height: 1px;
+  margin: 52px 0px;
+  background-color: rgb(182, 182, 182);
+}
+/* ------Footer-mid--------- */
+
+.footer-header .chinhSach {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-light-color);
+  font-size: var(--fontSize14);
+  padding-bottom: 52px;
+}
+.footer-header .chinhSach .left {
+  flex-basis: 40%;
+}
+.footer-header .chinhSach .right {
+  text-align: center;
+  line-height: 24px;
+}
+.footer-header .chinhSach .right span {
+  padding-right: 4px;
+
+  border-right: 1px solid rgb(168, 168, 168);
+}
+
+/* -----Footer-bottom-------- */
+.footer-bottom {
+  text-align: center;
+  color: var(--text-light-color);
+  padding-bottom: 52px;
+}
+.footer-bottom .policy {
+  display: flex;
+  justify-content: center;
+}
+.footer-bottom .policy .policy-item {
+  border-right: 1px solid var(--text-light-color);
+  padding: 0px 20px;
+  font-size: var(--fontSize14);
+}
+.footer-bottom .certificates {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+}
+.footer-bottom .certificate-item {
+  padding: 0px 24px;
+}
+.footer-bottom p {
+  line-height: 24px;
+  font-size: var(--fontSize13);
+}
+.footer-bottom p.tnhh {
+  margin: 16px 0px;
+}

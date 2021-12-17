@@ -1,0 +1,31 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bgr-body);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.dotActive {
+  border-color: var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
+}
+
+.p-relative {
+  position: relative;
+}
+.o-hidden {
+  overflow: hidden;
+}
+
+.appear {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.ads.container {
+  position: relative;
+}

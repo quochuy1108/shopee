@@ -1,0 +1,92 @@
+.mainBanner {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  height: 238.8px;
+}
+
+.mainBanner-slideWrap {
+  flex-basis: 796px;
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--borderRadius3);
+  height: 100%;
+}
+
+.mainBanner-slide {
+  height: 100%;
+  display: flex;
+}
+
+.mainBanner-slide .mainBanner-slide-item {
+  transition: 0.3s;
+  min-width: 100%;
+}
+
+.mainBanner-slide-btnLeft,
+.mainBanner-slide-btnRight {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: var(--white-color);
+  padding: 18px 12px;
+  background-color: rgba(0, 0, 0, 0.185);
+  cursor: pointer;
+
+  opacity: 0;
+}
+
+.mainBanner-slide-btnLeft:hover,
+.mainBanner-slide-btnRight:hover {
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+.mainBanner-slideWrap:hover .mainBanner-slide-btnLeft {
+  opacity: 1;
+}
+
+.mainBanner-slideWrap:hover .mainBanner-slide-btnRight {
+  opacity: 1;
+}
+
+.mainBanner-slideWrap .mainBanner-slide-btnLeft {
+  border-radius: 0 3px 3px 0px;
+}
+.mainBanner-slideWrap .mainBanner-slide-btnRight {
+  right: 0;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.mainBanner-slideWrap .mainBanner-slide-groupDot {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.mainBanner-slideWrap .mainBanner-slide-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: #ffffffa8;
+  margin: 0px 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mainBanner-groupImg {
+  flex-basis: 397px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+img.mainBanner-img {
+  height: 117px;
+  margin-bottom: 5px;
+  border-radius: var(--borderRadius3);
+}

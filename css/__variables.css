@@ -1,0 +1,15 @@
+:root {
+  --bgr-body: rgb(243, 243, 243);
+  --primary-color: #ee4d2d;
+  --sub-color: #d0011b;
+  --text-color: #222;
+  --text-light-color: #757575;
+  --text-medium-color: #555;
+  --white-color: white;
+  --fontSize14: 14px;
+  --fontSize13: 13px;
+  --fontSize12: 12px;
+  --borderRadius3: 3px;
+  --border-color: #e0e0e0;
+  --discount-color: rgba(255, 212, 36, 0.9);
+}

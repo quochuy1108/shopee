@@ -1,0 +1,23 @@
+.footer-sub {
+  background-color: var(--white-color);
+  padding-bottom: 64px;
+}
+.footer-sub .container {
+  padding-top: 52px;
+}
+.footer-sub .container h2,
+.footer-sub .container p {
+  margin-bottom: 16px;
+}
+.footer-sub .container p {
+  font-size: var(--fontSize12);
+  font-size: 12px;
+  line-height: 20px;
+}
+.footer-sub .container p[target] {
+  margin-bottom: 0;
+}
+.footer-sub .container a {
+  color: blue;
+  text-decoration: underline;
+}
